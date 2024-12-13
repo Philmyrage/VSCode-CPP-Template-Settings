@@ -26,7 +26,7 @@
                 "/nologo",
                 "/Fd${workspaceFolder}\\bin\\", //change to desired output folder
                 "/Fo${workspaceFolder}\\obj\\", //.obj file output path
-                "/Fe${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe", //change to your output folder
+                "/Fe${workspaceFolder}\\bin\\main.exe", //change to your output folder also changed so the .exe is alway main.exe if you compile from a different active file.
                 "${workspaceFolder}\\src\\main.cpp" //Entry point for the compiler
             ],
             "options": {
